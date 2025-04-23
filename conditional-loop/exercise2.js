@@ -39,7 +39,7 @@ else {
     }
 
 }
-console.log(x + (isPrime?"is a prime number":"is not a prime number"));
+console.log(x + (isPrime? "is a prime number":"is not a prime number"));
 
 
 //sum number 1 to N
