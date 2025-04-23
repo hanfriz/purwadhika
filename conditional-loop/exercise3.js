@@ -1,3 +1,6 @@
+
+//exercise 3
+
 //1. code to display the multiplication table of a given interger
 // Multiplication Table
 const number = 9;
