@@ -146,3 +146,21 @@ if (typeof x === "string") {
 }
 
 console.log('Identify:', hasil); 
+
+
+
+//code to change every letter a into *form a string input
+
+input="An apple a day keeps the doctor away";
+console.log(input.replace(/a/gi,"*"));
+
+let splitInput=input.split("");
+
+for (let i=0; i<splitInput.length; i++){
+  if (splitInput[i].toLowerCase()==="a"){
+    splitInput[i]="*"
+  }
+}
+
+  console.log(splitInput.join(""))
+
